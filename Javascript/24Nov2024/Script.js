@@ -68,10 +68,22 @@
 // console.log(z);
 // let z = 25; 
 
-const PI = 3.14;
+// const PI = 3.14;
 
-console.log(PI);
+// console.log(PI);
 
-const obj = {name: "John"};
-obj.name = "Dow";
-console.log(obj);
+// const obj = {name: "John"};
+// obj.name = "Dow";
+// console.log(obj);
+
+// let x = 10;
+
+// {
+//     let x = 2;
+// }
+
+// console.log(x);
+
+carName = "volvo";
+
+console.log(carName);
