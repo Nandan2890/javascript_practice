@@ -6,6 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="Script.js"></script>
+    <p id="demo">Hello</p>
+    <button type="button" onclick="myFunction(1,2)">Click me</button>
+    <!-- <script src="Script.js"></script> -->
+    <script>
+        function myFunction(p,q){
+            return p*q;
+        }
+        let result = myFunction(1,2);
+        document.getElementById('demo').innerHTML = `the result is ${result}`;
+    </script>
 </body>
 </html>
