@@ -27,4 +27,5 @@ function myFunction(p, q){
 
 // let result = myFunction(2,3);
 
-document.getElementById('demo').innerHTML = `my product of two numbers is ${myFunction(p, q)}.`;
+// document.getElementById('demo').innerHTML = `my product of two numbers is ${myFunction(p, q)}.`;
+console.log(typeof myFunction);
